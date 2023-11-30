@@ -1,0 +1,59 @@
+.app{
+    background-color: #2897a5;
+    
+    min-height : 100vh;;
+}
+.app__banner{
+    top: 0;
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 40;
+   
+}
+.app__img{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: inherit;
+}
+.app__title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #2897a5;
+    
+}
+
+
+.app__form{
+    margin-top: 25vh;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.app__input{
+    border: none;
+    padding: 0.4em 1em ;
+    border-radius: 0.5em 0 0 0.5em;
+}
+.app__btn{
+    display: block;
+    border: none;
+    width: 7em;
+    background-color: rgb(3, 77, 3);
+    padding: 0.4em;
+    border-radius: 0 0.5em 0.5em 0;
+    color: white;
+    font-weight: 700;
+}
+.app__card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
